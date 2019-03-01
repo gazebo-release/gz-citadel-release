@@ -1,0 +1,33 @@
+Source: ignition-acropolis
+Standards-Version: 3.9.5
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: debhelper (>= 11)
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
+Homepage: http://ignitionrobotics.org/
+
+Package: ignition-acropolis
+Architecture: any
+Section: libdevel
+Depends: libignition-cmake2-dev,
+         libignition-common3-dev,
+         libignition-fuel-tools3-dev,
+         libignition-gazebo-dev,
+         libignition-gui-dev,
+         libignition-math6-dev,
+         libignition-math6-eigen3-dev,
+         libignition-msgs3-dev,
+         libignition-plugin-dev,
+         libignition-physics-dev,
+         libignition-sensors-dev,
+         libignition-rendering-dev,
+         libignition-tools-dev,
+         libignition-transport6-dev,
+         libsdformat8-dev,
+         ${misc:Depends}
+Multi-Arch: foreign
+Description: Collection of ignition robotics packages - Acropolis
+  This is a metapackage used for triggering the whole collection of ignition
+  packages corresponding to the Acropolis collection
