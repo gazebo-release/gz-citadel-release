@@ -19,9 +19,7 @@ Build-Depends: debhelper (>= 11),
 	       libignition-rendering-dev,
 	       libignition-tools-dev,
 	       libignition-transport6-dev,
-	       libsdformat8-dev,
-	       ${misc:Depends}
-
+	       libsdformat8-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
 Homepage: http://ignitionrobotics.org/
