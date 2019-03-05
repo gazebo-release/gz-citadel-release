@@ -3,7 +3,25 @@ Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
-Build-Depends: debhelper (>= 11)
+Build-Depends: debhelper (>= 11),
+	       libignition-cmake2-dev,
+  	       libignition-common3-dev,
+  	       libignition-fuel-tools3-dev,
+	       libignition-gazebo-dev,
+	       libignition-gui-dev,
+	       libignition-launch-dev,
+	       libignition-math6-dev,
+	       libignition-math6-eigen3-dev,
+	       libignition-msgs3-dev,
+	       libignition-plugin-dev,
+	       libignition-physics-dev,
+	       libignition-sensors-dev,
+	       libignition-rendering-dev,
+	       libignition-tools-dev,
+	       libignition-transport6-dev,
+	       libsdformat8-dev,
+	       ${misc:Depends}
+
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
 Homepage: http://ignitionrobotics.org/
@@ -16,6 +34,7 @@ Depends: libignition-cmake2-dev,
          libignition-fuel-tools3-dev,
          libignition-gazebo-dev,
          libignition-gui-dev,
+	 libignition-launch-dev,
          libignition-math6-dev,
          libignition-math6-eigen3-dev,
          libignition-msgs3-dev,
