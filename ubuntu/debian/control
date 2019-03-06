@@ -19,7 +19,8 @@ Build-Depends: debhelper (>= 11),
 	       libignition-rendering-dev,
 	       libignition-tools-dev,
 	       libignition-transport6-dev,
-	       libsdformat8-dev
+	       libsdformat8-dev,
+               ignition-gazebo
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
 Homepage: http://ignitionrobotics.org/
@@ -43,6 +44,7 @@ Depends: libignition-cmake2-dev,
          libignition-tools-dev,
          libignition-transport6-dev,
          libsdformat8-dev,
+         ignition-gazebo,
          ${misc:Depends}
 Multi-Arch: foreign
 Description: Collection of ignition robotics packages - Acropolis
