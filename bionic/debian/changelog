@@ -1,3 +1,9 @@
+ignition-acropolis (1.0.1-1~bionic) bionic; urgency=medium
+
+  * ignition-acropolis 1.0.1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Mar 2019 01:30:08 +0100
+
 ignition-acropolis (1.0.0-1~bionic) bionic; urgency=medium
 
   * ignition-acropolis 1.0.0-1 release
