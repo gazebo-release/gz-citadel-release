@@ -1,4 +1,4 @@
-Source: ignition-acropolis
+Source: ignition-blueprint
 Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -21,11 +21,11 @@ Build-Depends: debhelper (>= 11),
 	       libignition-transport6-dev,
 	       libsdformat8-dev,
                ignition-gazebo
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-acropolis-release
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
 Homepage: http://ignitionrobotics.org/
 
-Package: ignition-acropolis
+Package: ignition-blueprint
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
