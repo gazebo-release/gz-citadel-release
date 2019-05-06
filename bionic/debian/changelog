@@ -1,12 +1,6 @@
-ignition-acropolis (1.0.1-1~bionic) bionic; urgency=medium
+ignition-blueprint (0.0.0-1~bionic) bionic; urgency=medium
 
-  * ignition-acropolis 1.0.1-1 release
+  * ignition-blueprint 0.0.0-1 release
 
  -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Mar 2019 01:30:08 +0100
-
-ignition-acropolis (1.0.0-1~bionic) bionic; urgency=medium
-
-  * ignition-acropolis 1.0.0-1 release
-
- -- Nate Koenig <nate@osrfoundation.org>  Wed, 31 Jan 2019 12:26:34 -0800
 
