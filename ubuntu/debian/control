@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 11),
 	       libignition-cmake2-dev,
   	       libignition-common3-dev,
   	       libignition-fuel-tools3-dev,
-	       libignition-gazebo-dev,
+	       libignition-gazebo2-dev,
 	       libignition-gui-dev,
 	       libignition-launch-dev,
 	       libignition-math6-dev,
@@ -20,7 +20,7 @@ Build-Depends: debhelper (>= 11),
 	       libignition-tools-dev,
 	       libignition-transport6-dev,
 	       libsdformat8-dev,
-               ignition-gazebo
+               ignition-gazebo2
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
 Homepage: http://ignitionrobotics.org/
@@ -31,7 +31,7 @@ Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-dev,
          libignition-fuel-tools3-dev,
-         libignition-gazebo-dev,
+         libignition-gazebo2-dev,
          libignition-gui-dev,
 	 libignition-launch-dev,
          libignition-math6-dev,
@@ -44,7 +44,7 @@ Depends: libignition-cmake2-dev,
          libignition-tools-dev,
          libignition-transport6-dev,
          libsdformat8-dev,
-         ignition-gazebo,
+         ignition-gazebo2,
          ${misc:Depends}
 Multi-Arch: foreign
 Description: Collection of ignition robotics packages - Acropolis
