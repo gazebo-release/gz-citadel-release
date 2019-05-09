@@ -47,6 +47,6 @@ Depends: libignition-cmake2-dev,
          ignition-gazebo2,
          ${misc:Depends}
 Multi-Arch: foreign
-Description: Collection of ignition robotics packages - Acropolis
+Description: Collection of ignition robotics packages - Blueprint
   This is a metapackage used for triggering the whole collection of ignition
-  packages corresponding to the Acropolis collection
+  packages corresponding to the Blueprint collection
