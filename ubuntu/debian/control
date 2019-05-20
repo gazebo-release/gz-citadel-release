@@ -18,7 +18,7 @@ Build-Depends: debhelper (>= 11),
 	       libignition-sensors2-dev,
 	       libignition-rendering2-dev,
 	       libignition-tools-dev,
-	       libignition-transport6-dev,
+	       libignition-transport7-dev,
 	       libsdformat8-dev,
                ignition-gazebo2
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
@@ -42,7 +42,7 @@ Depends: libignition-cmake2-dev,
          libignition-sensors2-dev,
          libignition-rendering2-dev,
          libignition-tools-dev,
-         libignition-transport6-dev,
+         libignition-transport7-dev,
          libsdformat8-dev,
          ignition-gazebo2,
          ${misc:Depends}
