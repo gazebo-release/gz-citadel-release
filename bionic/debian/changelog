@@ -1,3 +1,9 @@
+ignition-blueprint (1.0.0-1~bionic) bionic; urgency=medium
+
+  * ignition-blueprint 1.0.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 May 2019 00:17:14 +0200
+
 ignition-blueprint (1.0.0~pre1-1~bionic) bionic; urgency=medium
 
   * ignition-blueprint 1.0.0~pre1-1 release
