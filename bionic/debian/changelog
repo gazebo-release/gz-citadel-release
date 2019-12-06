@@ -1,6 +1,6 @@
-ignition-citadel (0.999.999-1~bionic) bionic; urgency=medium
+ignition-citadel (1.0.0~pre1-1~bionic) bionic; urgency=medium
 
-  * Stub to be removed after first entry
+  * ignition-citadel 1.0.0~pre1-1 release
 
- -- Louise Poubel <louise@openrobotics.org>  Fri, 06 Dec 2019 15:31:52 -0800
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 06 Dec 2019 15:37:25 -0800
 
