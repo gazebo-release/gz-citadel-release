@@ -1,18 +1,6 @@
-ignition-blueprint (1.0.0-1~bionic) bionic; urgency=medium
+ignition-citadel (0.999.999-1~bionic) bionic; urgency=medium
 
-  * ignition-blueprint 1.0.0-1 release
+  * Stub to be removed after first entry
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 22 May 2019 00:17:14 +0200
-
-ignition-blueprint (1.0.0~pre1-1~bionic) bionic; urgency=medium
-
-  * ignition-blueprint 1.0.0~pre1-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 17 May 2019 19:31:23 +0200
-
-ignition-blueprint (0.0.0-1~bionic) bionic; urgency=medium
-
-  * ignition-blueprint 0.0.0-1 release
-
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Tue, 19 Mar 2019 01:30:08 +0100
+ -- Louise Poubel <louise@openrobotics.org>  Fri, 06 Dec 2019 15:31:52 -0800
 

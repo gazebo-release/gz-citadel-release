@@ -1,4 +1,4 @@
-Source: ignition-blueprint
+Source: ignition-citadel
 Standards-Version: 3.9.5
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
@@ -21,11 +21,11 @@ Build-Depends: debhelper (>= 11),
 	       libignition-transport7-dev,
 	       libsdformat8-dev,
                ignition-gazebo2
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-blueprint-release
+Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-citadel-release
+Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-citadel-release
 Homepage: http://ignitionrobotics.org/
 
-Package: ignition-blueprint
+Package: ignition-citadel
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
@@ -47,6 +47,6 @@ Depends: libignition-cmake2-dev,
          ignition-gazebo2,
          ${misc:Depends}
 Multi-Arch: foreign
-Description: Collection of ignition robotics packages - Blueprint
+Description: Collection of ignition robotics packages - Citadel
   This is a metapackage used for triggering the whole collection of ignition
-  packages corresponding to the Blueprint collection
+  packages corresponding to the Citadel collection
