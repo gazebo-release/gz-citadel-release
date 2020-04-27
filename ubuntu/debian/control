@@ -6,7 +6,7 @@ Priority: optional
 Build-Depends: debhelper (>= 11),
 	       libignition-cmake2-dev,
   	       libignition-common3-dev,
-  	       libignition-fuel-tools3-dev,
+  	       libignition-fuel-tools4-dev,
 	       libignition-gazebo2-dev,
 	       libignition-gui2-dev,
 	       libignition-launch-dev,
@@ -30,7 +30,7 @@ Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
          libignition-common3-dev,
-         libignition-fuel-tools3-dev,
+         libignition-fuel-tools4-dev,
          libignition-gazebo2-dev,
          libignition-gui2-dev,
 	 libignition-launch-dev,
