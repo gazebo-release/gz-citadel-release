@@ -4,22 +4,22 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: debhelper (>= 11),
-	       libignition-cmake2-dev,
-  	       libignition-common3-dev,
-  	       libignition-fuel-tools4-dev,
-	       libignition-gazebo3-dev,
-	       libignition-gui3-dev,
-	       libignition-launch2-dev,
-	       libignition-math6-dev,
-	       libignition-math6-eigen3-dev,
-	       libignition-msgs5-dev,
-	       libignition-plugin-dev,
-	       libignition-physics2-dev,
-	       libignition-sensors3-dev,
-	       libignition-rendering3-dev,
-	       libignition-tools-dev,
-	       libignition-transport8-dev,
-	       libsdformat9-dev
+         libignition-cmake2-dev (>= 2.9.0),
+         libignition-common3-dev (>= 3.14.0),
+         libignition-fuel-tools4-dev (>= 4.4.0),
+         libignition-gazebo3-dev (>= 3.12.0),
+         libignition-gui3-dev (>= 3.8.0),
+         libignition-launch2-dev (>= 2.2.2),
+         libignition-math6-dev (>= 6.9.2),
+         libignition-math6-eigen3-dev (>= 6.9.2),
+         libignition-msgs5-dev (>= 5.8.1),
+         libignition-plugin-dev (>= 1.2.1),
+         libignition-physics2-dev (>= 2.5.0),
+         libignition-sensors3-dev (>= 3.3.0),
+         libignition-rendering3-dev (>= 3.6.0),
+         libignition-tools-dev (>= 1.4.1),
+         libignition-transport8-dev (>= 8.2.1),
+         libsdformat9-dev (>= 9.7.0)
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-citadel-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-citadel-release
 Homepage: http://ignitionrobotics.org/
@@ -27,22 +27,22 @@ Homepage: http://ignitionrobotics.org/
 Package: ignition-citadel
 Architecture: any
 Section: libdevel
-Depends: libignition-cmake2-dev,
-         libignition-common3-dev,
-         libignition-fuel-tools4-dev,
-         libignition-gazebo3-dev,
-         libignition-gui3-dev,
-	 libignition-launch2-dev,
-         libignition-math6-dev,
-         libignition-math6-eigen3-dev,
-         libignition-msgs5-dev,
-         libignition-plugin-dev,
-         libignition-physics2-dev,
-         libignition-sensors3-dev,
-         libignition-rendering3-dev,
-         libignition-tools-dev,
-         libignition-transport8-dev,
-         libsdformat9-dev,
+Depends: libignition-cmake2-dev (>= 2.9.0),
+         libignition-common3-dev (>= 3.14.0),
+         libignition-fuel-tools4-dev (>= 4.4.0),
+         libignition-gazebo3-dev (>= 3.12.0),
+         libignition-gui3-dev (>= 3.8.0),
+         libignition-launch2-dev (>= 2.2.2),
+         libignition-math6-dev (>= 6.9.2),
+         libignition-math6-eigen3-dev (>= 6.9.2),
+         libignition-msgs5-dev (>= 5.8.1),
+         libignition-plugin-dev (>= 1.2.1),
+         libignition-physics2-dev (>= 2.5.0),
+         libignition-sensors3-dev (>= 3.3.0),
+         libignition-rendering3-dev (>= 3.6.0),
+         libignition-tools-dev (>= 1.4.1),
+         libignition-transport8-dev (>= 8.2.1),
+         libsdformat9-dev (>= 9.7.0)
          ${misc:Depends}
 Multi-Arch: foreign
 Description: Collection of ignition robotics packages - Citadel
