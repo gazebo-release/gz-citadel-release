@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: ignition_cmake
+Upstream-Name: ignition-citadel
 Upstream-Contact: gazebo-list@gazebosim.org
-Source: https://bitbucket.org/osrf/ignition_cmake
+Source: https://github.com/gazebosim/gz-citadel
 
 Files: *
 Copyright: 2013 Open Source Robotics Foundation
