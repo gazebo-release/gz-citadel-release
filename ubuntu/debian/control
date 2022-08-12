@@ -20,9 +20,9 @@ Build-Depends: debhelper (>= 11),
          libignition-tools-dev (>= 1.4.1),
          libignition-transport8-dev (>= 8.2.1),
          libsdformat9-dev (>= 9.7.0)
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-citadel-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-citadel-release
-Homepage: http://ignitionrobotics.org/
+Vcs-Browser: https://github.com/gazebosim/gz-citadel-release
+Vcs-Git: https://github.com/gazebosim/gz-citadel-release
+Homepage: http://gazebosim.org/
 
 Package: ignition-citadel
 Architecture: any
@@ -45,6 +45,6 @@ Depends: libignition-cmake2-dev (>= 2.9.0),
          libsdformat9-dev (>= 9.7.0)
          ${misc:Depends}
 Multi-Arch: foreign
-Description: Collection of ignition robotics packages - Citadel
-  This is a metapackage used for triggering the whole collection of ignition
+Description: Collection of Gazebo packages - Citadel
+  This is a metapackage used for triggering the whole collection of Gazebo
   packages corresponding to the Citadel collection
