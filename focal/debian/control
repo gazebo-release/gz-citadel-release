@@ -21,7 +21,7 @@ Build-Depends: debhelper (>= 11),
          libignition-transport8-dev (>= 8.2.1),
          libsdformat9-dev (>= 9.7.0)
 Vcs-Browser: https://github.com/gazebosim/gz-citadel-release
-Vcs-Hg: https://github.com/gazebosim/gz-citadel-release
+Vcs-Git: https://github.com/gazebosim/gz-citadel-release
 Homepage: http://gazebosim.org/
 
 Package: ignition-citadel
