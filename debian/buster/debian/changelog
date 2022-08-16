@@ -1,3 +1,9 @@
+ignition-citadel (1.0.2-2~buster) buster; urgency=medium
+
+  * ignition-citadel 1.0.2-2 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Mon, 15 Aug 2022 17:24:39 -0700
+
 ignition-citadel (1.0.2-1~buster) buster; urgency=medium
 
   * ignition-citadel 1.0.2-1 release
