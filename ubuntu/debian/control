@@ -48,3 +48,11 @@ Multi-Arch: foreign
 Description: Collection of Gazebo packages - Citadel
   This is a metapackage used for triggering the whole collection of Gazebo
   packages corresponding to the Citadel collection
+
+Package: gz-citadel
+Depends: ignition-citadel, ${misc:Depends}
+Architecture: all
+Priority: optional
+Section: oldlibs
+Description: transitional package
+ It's recommended to use the gz packages going forward.
